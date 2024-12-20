@@ -22,14 +22,9 @@ This is a simple Flask-based REST API for managing a Todo list. The API integrat
    git clone https://github.com/jiten2030/Flask-Todo-API-MongoDB.git
    cd Flask-Todo-API-MongoDB
    ```
-2. Create a virtual environment and activate it:
-   ```bash
-   python3 -m venv venv
-   source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
-   ```
 2. Open the folder in VS Code or other editior:
    ```bash
-   code .
+   code . # You can also open this folder manually
    ```
 3. Install the dependencies:
    ```bash
@@ -41,7 +36,7 @@ This is a simple Flask-based REST API for managing a Todo list. The API integrat
    ```
 5. Start the server:
    ```bash
-   flask run
+   python app.py
    ```
 
 ## API Endpoints
@@ -66,7 +61,7 @@ This is a simple Flask-based REST API for managing a Todo list. The API integrat
 ```
 
 ### 2. Get a Single Todo
-**Endpoint:** `GET /todos/<id>`
+**Endpoint:** `GET /todo/<id>`
 
 **Description:** Retrieves a specific todo by its ID.
 
@@ -83,7 +78,7 @@ This is a simple Flask-based REST API for managing a Todo list. The API integrat
 ```
 
 ### 3. Create a Todo
-**Endpoint:** `POST /todos`
+**Endpoint:** `POST /todo`
 
 **Description:** Adds a new todo to the database.
 
@@ -121,7 +116,7 @@ This is a simple Flask-based REST API for managing a Todo list. The API integrat
 ```
 
 ### 4. Update a Todo (Full Update)
-**Endpoint:** `PUT /todos/<id>`
+**Endpoint:** `PUT /todo/<id>`
 
 **Description:** Updates all fields of a specific todo by its ID.
 
@@ -152,7 +147,7 @@ This is a simple Flask-based REST API for managing a Todo list. The API integrat
 ```
 
 ### 5. Patch Update a Todo
-**Endpoint:** `PATCH /todos/<id>`
+**Endpoint:** `PATCH /todo/<id>`
 
 **Description:** Updates specific fields of a todo by its ID.
 
@@ -175,7 +170,7 @@ This is a simple Flask-based REST API for managing a Todo list. The API integrat
 ```
 
 ### 6. Delete a Todo
-**Endpoint:** `DELETE /todos/<id>`
+**Endpoint:** `DELETE /todo/<id>`
 
 **Description:** Deletes a specific todo by its ID.
 
@@ -198,7 +193,3 @@ To run the tests, use:
 ```bash
 pytest
 ```
-
-## License
-This project is licensed under the MIT License. See the LICENSE file for details.
-
