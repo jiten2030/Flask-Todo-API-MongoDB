@@ -189,7 +189,4 @@ Field validation is performed using Flask and ensures:
 - `datetime` must follow the format `YYYY-MM-DD HH:MM:SS`.
 
 ## Running Tests
-To run the tests, use:
-```bash
-pytest
-```
+To test the API locally using `http://localhost:5000/`, you can run the following commands for the respective endpoints.
