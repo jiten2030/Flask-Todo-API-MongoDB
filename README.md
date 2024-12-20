@@ -27,6 +27,10 @@ This is a simple Flask-based REST API for managing a Todo list. The API integrat
    python3 -m venv venv
    source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
    ```
+2. Open the folder in VS Code or other editior:
+   ```bash
+   code .
+   ```
 3. Install the dependencies:
    ```bash
    pip install -r requirements.txt
