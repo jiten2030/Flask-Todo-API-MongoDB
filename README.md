@@ -22,9 +22,9 @@ This is a simple Flask-based REST API for managing a Todo list. The API integrat
    git clone https://github.com/jiten2030/Flask-Todo-API-MongoDB.git
    cd Flask-Todo-API-MongoDB
    ```
-2. Open the folder in VS Code or other editior:
+2. Open the folder in VS Code or run below command:
    ```bash
-   code . # You can also open this folder manually
+   code . app.py
    ```
 3. Install the dependencies:
    ```bash
